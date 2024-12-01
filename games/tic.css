@@ -1,0 +1,85 @@
+body { 
+    background : url("bg.jpg"); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: e4e4e4; 
+} 
+.nav { 
+    position: fixed; /* Fix the navigation bar position */ 
+    top: 0; /* Place it at the top of the viewport */ 
+    left: 0; 
+    right: 0; 
+    z-index: 9999; /* Set a high z-index value */ 
+    background-color: black; 
+    color: fff; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    backdrop-filter: blur(40px); 
+} 
+.nav-links { 
+    z-index: 1; 
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: flex-end; /* Align links to the right */ 
+    flex-grow: 1; /* Allow links to take remaining space */ 
+  } 
+   
+  .nav-links li { 
+    margin-right: 20px; 
+  } 
+   
+  .nav-links a { 
+    text-decoration: none; 
+    color: fff; 
+  } 
+section { 
+    text-align: center; 
+} 
+ 
+.cell { 
+    font-family: "Permanent Marker", cursive; 
+    width: 100px; 
+    height: 100px; 
+    border: 2px solid ecd7ba; 
+    cursor: pointer; 
+    line-height: 100px; 
+    font-size: 60px; 
+} 
+ 
+.game--title { 
+    font-size: 50px; 
+    color: 1f1f1f; 
+    margin: 90px auto; 
+    opacity: .8; 
+} 
+ 
+.game--container { 
+    display: grid; 
+    grid-template-columns: repeat(3, auto); 
+    width: 306px; 
+    margin: 10px auto; 
+    background-color: 3a3c3e; 
+    color: 04c0b2; 
+ 
+} 
+ 
+.game--status { 
+    font-size: 50px; 
+    color: 1ed86c; 
+    margin: 20px auto; 
+} 
+ 
+.game--restart { 
+    width: 200px; 
+    border-radius: 5px; 
+    height: 50px; 
+    font-size: 25px; 
+    color: 000000; 
+ 
+} 
+ 
+.game--restart:hover { 
+    background-color: 1ed86c; 
+}

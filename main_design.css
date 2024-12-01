@@ -1,0 +1,99 @@
+img1 { 
+    height: 100%; 
+    width: 100%; 
+  } 
+  img2 { 
+    height: 100%; 
+    width: 100%; 
+  } 
+  img3 { 
+    height: 100%; 
+    width: 100%; 
+  } 
+  .body1 { 
+    justify-content: center; 
+    display: flex; 
+    flex-direction: row; 
+  } 
+  body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: url("bg.jpg"); 
+  } 
+   
+  .nav { 
+    position: fixed; /* Fix the navigation bar position */ 
+    top: 0; /* Place it at the top of the viewport */ 
+    left: 0; 
+    right: 0; 
+    z-index: 9999; /* Set a high z-index value */ 
+    background-color: black; 
+    color: fff; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    backdrop-filter: blur(40px); 
+  } 
+   
+  .nav-links { 
+    z-index: 1; 
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: flex-end; /* Align links to the right */ 
+    flex-grow: 1; /* Allow links to take remaining space */ 
+  } 
+   
+  .nav-links li { 
+    margin-right: 20px; 
+  } 
+   
+  .nav-links a { 
+    text-decoration: none; 
+    color: fff; 
+  } 
+   
+  .container1 { 
+    z-index: 1; 
+    margin: 80px; 
+    width: 100vh; 
+    height: 50vh; 
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.2); 
+    /* display: flex; 
+      flex-direction: row; /* Display items in a row */ 
+    justify-content: center; /* Center items horizontally */ 
+    align-items: center; /* Center items vertically */ 
+    backdrop-filter: blur(20px); 
+  } 
+  .container2 { 
+    z-index: 1; 
+    margin: 80px; 
+    width: 100vh; 
+    height: 50vh; 
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.2); 
+    /*display: flex; 
+      flex-direction: row;  Display items in a row */ 
+    justify-content: center; /* Center items horizontally */ 
+    align-items: center; /* Center items vertically */ 
+    backdrop-filter: blur(20px); 
+  } 
+  .container3 { 
+    z-index: 1; 
+    margin: 80px; 
+    width: 100vh; 
+    height: 50vh; 
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.2); 
+    /*display: flex; 
+      flex-direction: row;  Display items in a row */ 
+    justify-content: center; /* Center items horizontally */ 
+    align-items: center; /* Center items vertically */ 
+    backdrop-filter: blur(20px); 
+  }
